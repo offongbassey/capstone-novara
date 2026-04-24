@@ -1,0 +1,58 @@
+NAMESPACE       NAME                                            READY   STATUS    RESTARTS        AGE
+cert-manager    cert-manager-7f7c7788c4-d2b4b                   1/1     Running   0               75m
+cert-manager    cert-manager-cainjector-56f466b6c9-7kfxx        1/1     Running   0               75m
+cert-manager    cert-manager-webhook-649b9df75b-q46lk           1/1     Running   0               75m
+default         backend-8596bcbb69-bl257                        1/1     Running   0               107m
+default         backend-8596bcbb69-vcxqt                        1/1     Running   0               107m
+default         frontend-5bbb8c44b7-qzwbg                       1/1     Running   0               93m
+default         frontend-5bbb8c44b7-tb95d                       1/1     Running   0               93m
+default         postgres-0                                      1/1     Running   0               157m
+ingress-nginx   ingress-nginx-controller-669bb8d68c-vbf7d       1/1     Running   0               88m
+kube-system     aws-cloud-controller-manager-gshtp              1/1     Running   0               4h47m
+kube-system     aws-cloud-controller-manager-q6g25              1/1     Running   0               4h47m
+kube-system     aws-cloud-controller-manager-r6ln6              1/1     Running   0               4h47m
+kube-system     aws-node-termination-handler-5d56c8d887-r8pd6   1/1     Running   0               4h47m
+kube-system     aws-node-termination-handler-5d56c8d887-xm6hv   1/1     Running   0               4h47m
+kube-system     calico-kube-controllers-6c7fc7b48b-m876v        1/1     Running   0               4h47m
+kube-system     calico-node-44qw9                               1/1     Running   0               4h47m
+kube-system     calico-node-dl4gw                               1/1     Running   0               4h46m
+kube-system     calico-node-pd8vm                               1/1     Running   0               4h46m
+kube-system     calico-node-qb6wn                               1/1     Running   0               4h47m
+kube-system     calico-node-wjd2h                               1/1     Running   0               4h46m
+kube-system     calico-node-x5skv                               1/1     Running   0               4h47m
+kube-system     coredns-autoscaler-55d7ff764c-vnqkg             1/1     Running   0               4h47m
+kube-system     coredns-c757c48b9-fbknp                         1/1     Running   0               4h47m
+kube-system     coredns-c757c48b9-g85cw                         1/1     Running   0               4h46m
+kube-system     dns-controller-868844d889-5flwl                 1/1     Running   0               4h47m
+kube-system     ebs-csi-controller-7c4dc555c5-2wh9d             6/6     Running   0               4h47m
+kube-system     ebs-csi-controller-7c4dc555c5-hhjlv             6/6     Running   0               4h47m
+kube-system     ebs-csi-node-4l5gs                              3/3     Running   0               4h47m
+kube-system     ebs-csi-node-79sxf                              3/3     Running   0               4h47m
+kube-system     ebs-csi-node-dv2tx                              3/3     Running   0               4h47m
+kube-system     ebs-csi-node-jwpkt                              3/3     Running   0               4h46m
+kube-system     ebs-csi-node-kjdgd                              3/3     Running   0               4h46m
+kube-system     ebs-csi-node-wwdmf                              3/3     Running   0               4h46m
+kube-system     etcd-manager-events-i-01f305854bcfe0e4a         1/1     Running   0               4h46m
+kube-system     etcd-manager-events-i-0e4377b53ca3912eb         1/1     Running   0               4h46m
+kube-system     etcd-manager-events-i-0eb92e257fcfed43a         1/1     Running   0               4h47m
+kube-system     etcd-manager-main-i-01f305854bcfe0e4a           1/1     Running   0               4h47m
+kube-system     etcd-manager-main-i-0e4377b53ca3912eb           1/1     Running   0               4h47m
+kube-system     etcd-manager-main-i-0eb92e257fcfed43a           1/1     Running   0               4h47m
+kube-system     kops-controller-84psd                           1/1     Running   0               4h47m
+kube-system     kops-controller-nmsfd                           1/1     Running   0               4h47m
+kube-system     kops-controller-vmzjn                           1/1     Running   0               4h47m
+kube-system     kube-apiserver-i-01f305854bcfe0e4a              2/2     Running   1 (4h48m ago)   4h47m
+kube-system     kube-apiserver-i-0e4377b53ca3912eb              2/2     Running   1 (4h48m ago)   4h47m
+kube-system     kube-apiserver-i-0eb92e257fcfed43a              2/2     Running   1 (4h48m ago)   4h46m
+kube-system     kube-controller-manager-i-01f305854bcfe0e4a     1/1     Running   3 (4h48m ago)   4h47m
+kube-system     kube-controller-manager-i-0e4377b53ca3912eb     1/1     Running   3 (4h48m ago)   4h47m
+kube-system     kube-controller-manager-i-0eb92e257fcfed43a     1/1     Running   3 (4h47m ago)   4h47m
+kube-system     kube-proxy-i-00c90e8ba6e953906                  1/1     Running   0               4h46m
+kube-system     kube-proxy-i-01f305854bcfe0e4a                  1/1     Running   0               4h47m
+kube-system     kube-proxy-i-08232c4249737bb61                  1/1     Running   0               4h46m
+kube-system     kube-proxy-i-0c7adf467cbcbbf71                  1/1     Running   0               4h46m
+kube-system     kube-proxy-i-0e4377b53ca3912eb                  1/1     Running   0               4h47m
+kube-system     kube-proxy-i-0eb92e257fcfed43a                  1/1     Running   0               4h47m
+kube-system     kube-scheduler-i-01f305854bcfe0e4a              1/1     Running   3 (4h47m ago)   4h47m
+kube-system     kube-scheduler-i-0e4377b53ca3912eb              1/1     Running   3 (4h48m ago)   4h47m
+kube-system     kube-scheduler-i-0eb92e257fcfed43a              1/1     Running   3 (4h47m ago)   4h47m

@@ -1,0 +1,7 @@
+NAME                  STATUS   ROLES           AGE     VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE             KERNEL-VERSION   CONTAINER-RUNTIME
+i-00c90e8ba6e953906   Ready    node            4h46m   v1.29.0   10.0.13.20    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.30
+i-01f305854bcfe0e4a   Ready    control-plane   4h47m   v1.29.0   10.0.13.26    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.30
+i-08232c4249737bb61   Ready    node            4h46m   v1.29.0   10.0.11.98    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.30
+i-0c7adf467cbcbbf71   Ready    node            4h46m   v1.29.0   10.0.12.116   <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.30
+i-0e4377b53ca3912eb   Ready    control-plane   4h47m   v1.29.0   10.0.12.91    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.30
+i-0eb92e257fcfed43a   Ready    control-plane   4h47m   v1.29.0   10.0.11.121   <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.30

@@ -1,0 +1,22 @@
+Validating cluster cluster.novaradevops.click
+
+INSTANCE GROUPS
+NAME				ROLE		MACHINETYPE	MIN	MAX	SUBNETS
+bastions			Bastion		t3.micro	1	1	us-east-1a,us-east-1b,us-east-1c
+control-plane-us-east-1a	ControlPlane	t3.small	1	1	us-east-1a
+control-plane-us-east-1b	ControlPlane	t3.small	1	1	us-east-1b
+control-plane-us-east-1c	ControlPlane	t3.small	1	1	us-east-1c
+nodes-us-east-1a		Node		t3.small	1	1	us-east-1a
+nodes-us-east-1b		Node		t3.small	1	1	us-east-1b
+nodes-us-east-1c		Node		t3.small	1	1	us-east-1c
+
+NODE STATUS
+NAME			ROLE		READY
+i-00c90e8ba6e953906	node		True
+i-01f305854bcfe0e4a	control-plane	True
+i-08232c4249737bb61	node		True
+i-0c7adf467cbcbbf71	node		True
+i-0e4377b53ca3912eb	control-plane	True
+i-0eb92e257fcfed43a	control-plane	True
+
+Your cluster cluster.novaradevops.click is ready
